@@ -20,10 +20,13 @@ hr {
     width: 30%;
     display: inline-block;
     padding-bottom: 0.5em;
+    min-width: 350px;
+
 }
 .div2 {
   width: 30%;
   display: inline-block;
   background-color: white;
   padding: 0.5em;
+  min-width: 350px;
 }
