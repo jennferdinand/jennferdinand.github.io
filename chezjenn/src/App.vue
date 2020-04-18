@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <Welcome msg="Welcome to Your Vue.js App"/>
+    <Welcome />
+    <Showcase />
   </div>
 </template>
 
 <script>
 import Welcome from './components/Welcome.vue'
+import Showcase from './components/Showcase.vue'
 
 export default {
   name: 'App',
   components: {
-    Welcome
+    Welcome,
+    Showcase
   }
 }
 </script>

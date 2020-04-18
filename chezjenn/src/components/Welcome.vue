@@ -1,6 +1,9 @@
 <template>
   <b-container>
     <h1>Welcome to chezjenn</h1>
+    <div class="div2">
+      <p>This site will showcase some recipes. </p>
+    </div>
   </b-container>
 </template>
 
