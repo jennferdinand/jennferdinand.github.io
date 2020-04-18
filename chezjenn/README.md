@@ -24,11 +24,12 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-npm run build
 
 # Push changes
 
 cd chezjenn
+
+npm run build
 
 cd dist
 
