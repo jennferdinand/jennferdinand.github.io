@@ -3,6 +3,7 @@
     <Navigation />
     <Welcome />
     <Showcase />
+    <Footer />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import Navigation from './components/Navigation.vue'
 import Welcome from './components/Welcome.vue'
 import Showcase from './components/Showcase.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Navigation,
     Welcome,
-    Showcase
+    Showcase,
+    Footer
   }
 }
 </script>
