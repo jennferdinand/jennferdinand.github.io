@@ -9,9 +9,8 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Welcome',
   props: {
-    msg: String
   }
 }
 </script>
@@ -31,5 +30,9 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.div2 {
+  border-radius: 25px;
 }
 </style>

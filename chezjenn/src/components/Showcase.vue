@@ -26,7 +26,7 @@
 <script>
 import foodJson from "../assets/data/food";
 export default {
-	name: "HelloWorld",
+	name: "Showcase",
 	props: {
 		msg: String
 	},
@@ -63,8 +63,8 @@ a {
 	width: 95%;
 	background: white;
 	padding: 0.5em;
-	border-style: ridge;
-	border-width: 0.1em;
+	border-style: groove;
+	border-width: 0.05em;
 	border-color: rgba(255, 255, 255, 0.527);
 }
 </style>
