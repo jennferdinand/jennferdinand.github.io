@@ -7,8 +7,8 @@
 				<b-nav-item href="https://www.instagram.com/chezjenn" target="_blank">
 					<i class="fab fa-instagram"></i>
 				</b-nav-item>
-				<b-nav-item href="#deserts">Deserts</b-nav-item>
-				<b-nav-item href="#mains">Mains</b-nav-item>
+				<b-nav-item id="desertsLink" href="#">Deserts</b-nav-item>
+				<b-nav-item id="mainsLink" href="#">Mains</b-nav-item>
 			</b-navbar-nav>
 		</b-collapse>
 	</b-navbar>
@@ -24,10 +24,16 @@ export default {
 		scrollToTop() {
 			document.documentElement.scrollTop = 0;
 			history.pushState("", document.title, window.location.pathname);
+        },
+        scrollToId(id) {
+			let elm = document.getElementById(id);
+			elm.scrollIntoView();
 		}
 	},
 	mounted: function() {
-		document.getElementById("brand").onclick = this.scrollToTop;
+        document.getElementById("brand").onclick = this.scrollToTop;
+        document.getElementById("desertsLink").onclick = () => this.scrollToId("deserts");
+        document.getElementById("mainsLink").onclick = () => this.scrollToId("mains");
 	}
 };
 </script>
