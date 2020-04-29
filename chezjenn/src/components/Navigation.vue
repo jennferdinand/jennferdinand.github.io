@@ -4,7 +4,7 @@
 		<b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 		<b-collapse id="nav-collapse" is-nav>
 			<b-navbar-nav>
-				<b-nav-item href="https://www.instagram.com/chezjenn" target="_blank">
+				<b-nav-item href="https://www.instagram.com/chez.jenn" target="_blank">
 					<i class="fab fa-instagram"></i>
 				</b-nav-item>
 				<b-nav-item id="desertsLink" href="#">Deserts</b-nav-item>
@@ -45,7 +45,7 @@ export default {
     position: fixed;
     top: 0;
     width: 100%;
-  background: rgba(254, 250, 255, 0.513);
+  background: rgba(254, 250, 255, 0.75);
 }
 
 </style>
